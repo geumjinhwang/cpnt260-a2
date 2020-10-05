@@ -2,8 +2,10 @@
 main{
 	min-width: 20ch;
 	max-width: 40ch;
+
 	border: 0px solid lightgray;
-  box-shadow: 2px 10px 18px #888888;
+	box-shadow: 2px 10px 18px #888888;
+	
 	margin: auto;
 }
 
@@ -13,6 +15,7 @@ main{
 	min-width: 20ch;
 	max-width: 40ch;
 	max-height: 30ch;
+
 	background-image: linear-gradient(360deg, #ECECEC 35%, transparent 35%), url("https://sait-wbdv.github.io/assessments/cpnt260/assignment-2/images/river.jpg");
 	background-repeat: no-repeat;
 	background-position: 50% 100%;
@@ -22,9 +25,9 @@ main{
 
 /* profile image */
 .images img {
-	width: 50%;
 	border: 7px solid #ECECEC;
 	border-radius: 50%;
+
 	margin: 10ch 10ch 2ch 10ch;
 	width: 17ch;
 	height: 16ch;
@@ -32,26 +35,29 @@ main{
 
 /* name */
 h2 {
-	font-family: 'Courier New', Courier, monospace;
 	margin: auto;
+	
 	font-family: 'Abril Fatface', cursive;
 }
 
 /* content */
 .profile {
 	text-align: center;
+	line-height: 200%;
+	
+	background-color: #ECECEC;	
+	
 	min-width: 20ch;
 	max-width: 40ch;
-	line-height: 200%;
-	background-color: #ECECEC;
 }
 
 /* 35 words of lorem ipsum */
 p {
 	padding: 0rem 0.9rem;
-	font-family: 'Source Sans Pro', sans-serif;
 	max-width: 40ch;
+
 	font-size: 17px;
+	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 140%;
 }
 
@@ -66,12 +72,13 @@ ul, li, a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+
 	padding: 0.4rem 0.4rem;
+
 	color: navy;
 	text-decoration: none;
 }
 
 .fab {
 	font-size: 2.6rem;
-
 }
