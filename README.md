@@ -4,4 +4,6 @@
 ### **Jina Hwang**
 #### [GitHub pages](https://geumjinhwang.github.io/cpnt260-a2/)
 
-- #### I used the website, https://htmlcolorcodes.com/ to find the code for the background color(#ECECEC). 
+### Attribution  
+Patrick helped me with README and GitHub push.  
+I used the website, https://htmlcolorcodes.com/ to find the code for the background color(#ECECEC). 
